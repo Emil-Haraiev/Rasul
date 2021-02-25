@@ -1,0 +1,27 @@
+.container {
+    width: 998px;
+}
+.episode__container{
+    display: flex;
+    flex-direction: row; 
+    width: 167px;
+    height: 107px;
+    padding: 0 0 0 38px;
+    
+}
+
+h3{
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+}
+
+.date, .title{
+    color: #6e6e6e;
+    margin-bottom: 5px;
+}
+

@@ -1,0 +1,101 @@
+html{
+   background-color:  #1e202b;
+}
+
+
+.season{
+    display: flex;
+    justify-content: center;
+    height: 33px;
+    width: 184px;
+    background-color: #1e202b;
+    &__title{
+        &:hover{
+            color: white;
+        }
+    }
+    .season__tabs {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        
+    }
+    .season__tab{
+        &_active{
+            background-color: #fff153;
+            color: #14161d;
+            &:hover{
+                color: #14161d;
+            }
+        }
+        &:hover{
+            color: white;
+        }
+    }
+    li{
+        display: inline;
+        float: left;
+        cursor: pointer;
+        padding: 6px 14px 7px;
+        border: 1px solid #6d7080;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #adadad;
+    }
+}
+
+
+
+.swiper-container{
+    width: 998px;
+    background-color: #1e202b;
+}
+.swiper-slide {
+    min-width: 165.5px;
+    max-width: 165.5px;
+    position: relative;
+    border-right: 1px solid #6d7080;
+}
+
+input {
+    position: absolute;
+    top: 20px;
+    left: 16px;
+    border-radius: 100%;
+}
+
+.episode__first::before {
+    content: "Yeni Sezon";
+    padding: 3px 6px;
+    line-height: 1;
+    background-color: rgba(251,196,22,.2);
+    color: #fff153;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.swiper-container{
+    border: 1px solid #6d7080;
+
+}
+
+.episode__fifth::after{
+    content: "Yay\0131 nlanmad\0131 ";
+    padding: 3px 6px;
+    line-height: 1;
+    background-color: rgba(229,9,20,.2);
+    color: #f83b31;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+    .season_finaly {
+        position: absolute;
+        right: 0px;
+        border-right: 2px solid #bf2e27
+    }
